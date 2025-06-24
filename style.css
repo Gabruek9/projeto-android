@@ -94,9 +94,8 @@ nav > a:hover{
 /* ===== CONTAINER PRINCIPAL ===== */
 #principal{
     min-width: 300px;
-    max-width: 1000px;
+    max-width: 750px;
     margin: auto;
-    max-width: 1000px;
     background-color: white;
     border-radius: 5px;
 }
