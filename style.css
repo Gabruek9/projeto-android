@@ -1,0 +1,162 @@
+/* ===== FONTES PERSONALIZADAS ===== */
+@font-face {
+    font-family:'android';
+    src: url('pacote-projeto-d010/fontes/idroid.otf');
+    font-weight: normal;
+    font-size: normal;
+}
+
+:root{
+    --textopadrao: Arial, Helvetica, sans-serif;
+    --textoidroid: 'android';
+    --itenslista: underline;
+}
+
+/* ===== TEXTOS PADRÃO ===== */
+p{
+    font-family: var(--textopadrao);
+}
+
+/* ===== CONTEÚDO DO ARTIGO ===== */
+article > h1{
+    color: rgba(22, 95, 231, 0.459);
+    font-family:var(--textoidroid);
+    font-weight: normal;
+    text-align: left;
+    padding: 15px 0px 0px 20px;
+    display: block;
+    background-color: rgba(152, 223, 247, 0.068);
+}
+
+article > h2{
+    color: rgba(22, 95, 231, 0.459);
+    font-family:var(--textoidroid);
+    margin-left: 5px;
+    border-radius: 60px;
+    text-align: left;
+    padding-left: 18px;
+    display: block;
+    background-image: linear-gradient(to right, rgba(188, 208, 252, 0.486), rgba(255, 255, 255, 0.219));
+}
+
+article > p{
+    font-family: var(--textopadrao);
+    margin: 10px;
+    text-indent: 15px;
+}
+
+/* ===== CABEÇALHO ===== */
+header{
+    border-radius: 15px;
+    margin-top: 10px;
+    background-image: linear-gradient(to bottom, rgb(132, 167, 243), rgb(112, 112, 253, 0.596));
+}                  
+
+/* ===== CORPO DA PÁGINA ===== */
+body{
+    background-color:rgb(132, 167, 243)
+}   
+
+/* ===== TÍTULOS E SUBTÍTULOS ===== */
+#titulo{
+    padding: 10px 0 0 0;
+    text-align: center;
+    margin: 35px;
+    display: block;
+}
+
+#subtitulo{
+    text-align: center;
+    margin: 15px 5px 15px 5px;
+}
+
+/* ===== NAVEGAÇÃO ===== */
+nav{
+    margin: auto;
+    max-width: 1000px;
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.849);
+}
+
+a{  
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+
+/* ===== CONTAINER PRINCIPAL ===== */
+#principal{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* ===== MÍDIAS ===== */
+picture, iframe{
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+iframe{
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+}
+
+article > div {
+    background-color: rgba(151, 184, 255, 0.336);
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+/* ===== CONTEÚDO COMPLEMENTAR ===== */
+aside{
+    background-color:rgba(180, 210, 245, 0.836);
+    margin: 10px;
+    border-radius: 15px;
+}
+
+aside > p {
+    margin: 15px;
+    padding: 0px 0px 15px 0px;
+}
+
+aside > ol {
+    text-decoration: var(--itenslista);
+    columns: 2;
+    list-style: none;
+}
+
+/* ===== TÍTULO DO ASIDE ===== */
+h3{
+    background-image: linear-gradient(to right, rgba(108, 177, 255, 0.555), rgba(255, 255, 255, 0.219));
+    padding: 10px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+/* ===== RODAPÉ ===== */
+footer{
+    text-align: center;
+    background-color: rgb(67, 118, 228);
+    color: white;
+    padding: 5px;
+    border-radius: 100px;
+}
+
+/* ===== PARÁGRAFO FINAL ===== */
+.ultimalinha{
+    padding: 15px;
+}
