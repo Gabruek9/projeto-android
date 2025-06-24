@@ -1,7 +1,7 @@
 /* ===== FONTES PERSONALIZADAS ===== */
 @font-face {
     font-family:'android';
-    src: url('fontes/idroid.otf');
+    src: url('./fontes/idroid.otf');
     font-weight: normal;
     font-size: normal;
 }
