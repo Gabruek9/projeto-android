@@ -109,7 +109,6 @@ picture, iframe{
     text-align: center;
 }
 picture img {
-    width: 100%;
     max-width: 100%;
     height: auto;
     display: block;
@@ -126,7 +125,6 @@ picture img {
 
 picture img[alt="bugdroid"] {
     max-width: 250px;
-    width: 100%;
     height: auto;
     display: block;
     margin: auto;
