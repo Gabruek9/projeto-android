@@ -1,7 +1,7 @@
 /* ===== FONTES PERSONALIZADAS ===== */
 @font-face {
     font-family:'android';
-    src: url('./fontes/idroid.otf');
+    src: url('fontes/idroid.otf');
     font-weight: normal;
     font-size: normal;
 }
@@ -101,18 +101,37 @@ nav > a:hover{
 }
 
 /* ===== MÍDIAS ===== */
+
 picture, iframe{
     width: 100%;
     display: block;
     margin: auto;
     text-align: center;
 }
-
-iframe{
-    padding: 10px;
-    width: 600px;
-    height: 300px;
+picture img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
+    iframe {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16/9;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+picture img[alt="bugdroid"] {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
 
 article > div {
     background-color: rgba(151, 184, 255, 0.336);
